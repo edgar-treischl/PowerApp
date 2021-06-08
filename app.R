@@ -56,7 +56,7 @@ ui <- fixedPage(
                  #tags$style(".fa {color:black}"),
                  fixedRow(
                      column(6,
-                            includeMarkdown("start.Rmd")),
+                            includeMarkdown("txt/start.Rmd")),
                      column(6,
                             plotOutput("corPlot"),
                             div(style="margin: auto; width: 80%",
@@ -69,7 +69,7 @@ ui <- fixedPage(
         tabPanel("Effect Size", icon = icon("balance-scale"),
                  fixedRow(
                      column(width = 6,
-                            includeMarkdown("effectT.md")
+                            includeMarkdown("txt/effectT.md")
                      ),
                      column(width = 6,
                             div(style="margin: auto; width: 80%",
@@ -89,7 +89,7 @@ ui <- fixedPage(
         tabPanel("Power", icon = icon("plug"),
                  fixedRow(
                      column(width = 6,
-                            includeMarkdown("power_text.md")
+                            includeMarkdown("txt/power_text.md")
                      ),
                      column(width = 6,
                             div(style="margin: auto; width: 80%",
@@ -109,7 +109,7 @@ ui <- fixedPage(
         tabPanel("Estimate", icon = icon("robot"),
                  fixedRow(
                      column(width = 6,
-                            includeMarkdown("estimate_text.md"),
+                            includeMarkdown("txt/estimate_text.md"),
                             verbatimTextOutput("model")
                      ),
                      column(width = 6,
@@ -128,7 +128,7 @@ ui <- fixedPage(
         tabPanel("Low Power", icon = icon("battery-quarter"),
                  fixedRow(
                      column(width = 6,
-                            includeMarkdown("lowpower_text.md")
+                            includeMarkdown("txt/lowpower_text.md")
                      ),
                      column(width = 6,
                             plotOutput("participants"),

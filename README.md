@@ -1,15 +1,8 @@
-
-
 ## Power-App
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
+This is a simply R shiny app to teach the basics of a power analysis. You can inspect the app on my [my personal website](http://edgar-treischl.de/apps/power-analysis/) or run the app via:
 
 ```{r cars}
 library(shiny)
 runGitHub("Power-App", "edgartreischl", ref="main")
 ```
-
-
