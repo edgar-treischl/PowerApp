@@ -5,3 +5,5 @@ Students in seminars and other courses often criticize if a study relies on a sm
 In order to run a power analysis, we have to provide several information: First, we have to make an assumption about the effect between the examined variables. On the left side you can see scatter plot with simulated data. Go on and adjust the effect of X on Y. Like the correlation between X and Y, we have to assume how strong both variables are related. Is there a weak or a strong effect between X and Y? Second, holding other aspects like effect size constant, we have to specify how much statistical power do we want to detect the effect of X on Y.
 
 This app illustrates both aspects in more detail and shows you how a power analysis helps researchers to determine the "right" sample size and how you can get an idea whether a study has (not) enough statistical power to detect an effect.
+
+[The source code of this app is available on my github account.](https://github.com/edgar-treischl/Power-App)
