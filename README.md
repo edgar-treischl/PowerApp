@@ -4,7 +4,7 @@ This is the repository for a R shiny app that introduces the basics of a power a
 
 ```{r, eval=FALSE}
 library(shiny)
-runGitHub("Power-App", "edgartreischl", ref="main")
+runGitHub("Power-App", "edgar-treischl", ref="main")
 ```
 
 
