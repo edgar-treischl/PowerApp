@@ -61,7 +61,7 @@ make_power_plot <- function(effect1, effect2) {
   
   ggplot(temp, aes(x = n, y = power, color = group, linetype = group)) +
     geom_hline(yintercept = 0.80, linetype = 1, size = 1.2, color = "darkgray") +
-    geom_line(size = 1) +
+    geom_line(linewidth = 1) +
     theme_bw(base_size = 20) +
     geom_label(data = temp %>% filter(n == 50),
                aes(label = paste0("d: ", c(effect1, effect2)), fill = group),
@@ -87,7 +87,7 @@ make_low_power_plot <- function(max_cases) {
   
   ggplot(temp, aes(x = n, y = power, color = group, linetype = group)) +
     geom_hline(yintercept = 0.80, linetype = 1, color = "darkgray", size = 1.2) +
-    geom_line(size = 1) +
+    geom_line(linewidth = 1) +
     theme_bw(base_size = 20) +
     geom_label(data = temp %>% filter(n == 50),
                aes(label = group, fill = group),
