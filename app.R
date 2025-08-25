@@ -9,20 +9,7 @@ library(thematic)
 library(waiter)
 library(bslib)
 
-# ---- Optional: Define theme (not used) ----
-material <- bs_theme(
-  bg = "white", 
-  fg = "black", 
-  primary = "red", 
-  secondary = "blue",
-  success = "#4F9B29",
-  info = "#28B3ED",
-  warning = "#FD7424",
-  danger = "#F7367E",
-  base_font = font_google("Open Sans"),
-  heading_font = font_google("Proza Libre"),
-  code_font = font_google("Fira Code")
-)
+
 
 # ---- UI ----
 ui <- fixedPage(
@@ -33,7 +20,7 @@ ui <- fixedPage(
              # Start Tab
              tabPanel("Start", icon = icon("play"),
                       fixedRow(
-                        column(6, includeMarkdown("txt/start.Rmd")),
+                        column(6, includeMarkdown("txt/start.md")),
                         column(6,
                                plotOutput("corPlot"),
                                div(style = "margin: auto; width: 80%",
