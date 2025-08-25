@@ -11,8 +11,12 @@ concepts, including:
 - Consequences of low-powered studies
 
 The app is designed for researchers, students, and educators in
-psychology, social science, and related fields. You can view the app on
-my [my website](http://edgar-treischl.de/projects) or run via:
+psychology, social science, and related fields.
+
+## 🌐 Visit the App
+
+You can view the app on my [my
+website](http://edgar-treischl.de/projects) or run via:
 
 ``` r
 library(shiny)
